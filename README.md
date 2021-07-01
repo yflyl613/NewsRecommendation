@@ -65,15 +65,15 @@ conda env create -f env.yaml			# Maybe only work on Linux
 
 
 
-### Results on MIND-small validation set ^[1]^
+### Results on MIND-small validation set<sup>[1]</sup>
 
-- **NAML ^[2]^**
+- **NAML<sup>[2]</sup>**
 
   |         News information         |  AUC  |  MRR  | nDCG@5 | nDCG@10 |                  Configuration                  |
   | :------------------------------: | :---: | :---: | :----: | :-----: | :---------------------------------------------: |
-  | subcategory<br>category<br>title | 66.24 | 32.08 | 35.36  |  41.56  | batch size 128 (32 * 4)<br> 5 epochs<br>lr 3e-4 |
+  | subcategory<br>category<br>title | 66.24 | 32.08 | 35.36  |  41.56  | batch size 128 (32*4)<br> 5 epochs<br>lr 3e-4 |
   
-- **NRMS ^[3]^**
+- **NRMS<sup>[3]</sup>**
 
   | News information |  AUC  |  MRR  | nDCG@5 | nDCG@10 |                 Configuration                 |
   | :--------------: | :---: | :---: | :----: | :-----: | :-------------------------------------------: |
